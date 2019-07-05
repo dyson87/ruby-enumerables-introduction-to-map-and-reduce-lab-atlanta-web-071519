@@ -46,4 +46,5 @@ def reduce_to_total(source_array)
   while i < source_array.length do
     new.push(source_array[i].reduce)
   end
+  return new
 end
